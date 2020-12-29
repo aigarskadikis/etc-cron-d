@@ -1,0 +1,3 @@
+# execute partition maintenance script
+4 0 * * * root zabbix_partitioning.sh
+

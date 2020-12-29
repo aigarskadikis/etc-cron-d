@@ -1,0 +1,3 @@
+# speed up frontend
+6 6 * * * root mysql zabbix -e 'delete from sessions where (lastaccess < UNIX_TIMESTAMP(NOW()) - 3600); optimize table sessions;'
+
