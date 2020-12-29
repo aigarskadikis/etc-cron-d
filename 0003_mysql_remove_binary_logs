@@ -1,0 +1,3 @@
+# remove binary logs
+3 0 * * * root mysql zabbix -e 'SHOW BINARY LOGS; PURGE BINARY LOGS BEFORE now()-INTERVAL 1 day; SHOW BINARY LOGS;'
+

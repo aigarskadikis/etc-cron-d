@@ -1,0 +1,3 @@
+# daily configuration backup of database, web server, backend, agent settings
+9 5 * * * root zabbix_backup.sh
+

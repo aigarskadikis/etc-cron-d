@@ -1,0 +1,2 @@
+# daily database backup
+8 0 * * * root zabbix_mysql_db_maintenance.sh >> /var/log/zabbix/zabbix_db_maintenance.log
