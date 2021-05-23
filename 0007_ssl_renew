@@ -1,3 +1,0 @@
-# renew ssl before expiry
-0 0,12 * * * root USE_PYTHON_3=1 /usr/local/bin/certbot-auto renew
-

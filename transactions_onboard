@@ -1,1 +1,0 @@
-# * * * * * root date >> /tmp/innotop.txt && innotop -h'ros' -P'3306' -u'zabbix' -p'zabbix' --count 1 -d 1 -n --mode Q >> /tmp/innotop.txt && echo ====== >> /tmp/innotop.txt && sleep 29 && date >> /tmp/innotop.txt && innotop -h'ros' -P'3306' -u'zabbix' -p'zabbix' --count 1 -d 1 -n --mode Q >> /tmp/innotop.txt && echo ====== >> /tmp/innotop.txt
